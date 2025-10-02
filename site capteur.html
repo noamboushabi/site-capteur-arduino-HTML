@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Capteur de distance arduino</title>
+    <script src="quizz.js"></script>
+  </head>
+<body>
+  <h1>Capteur de distance arduino</h1>
+  <img src="capteur de distance.PNG" alt="Voici une image">
+  <p>Le capteur de distance (aussi appelé capteur ultrason) permet de réaliser des mesures de distance. Il permet d'estimer une distance allant de 2 cm à 400 cm avec une précision de 3mm. C'est le capteur de distance le plus utilisé et le moins cher. Il en existe des bien plus précis mais aussi bien plus chers.</p>
+<style>
+    body {
+      background-color: skyblue;
+    }
+  </style>
+  <h3>Carracteristiques :</h3>
+  <ul>
+  <li>envoie une onde ultrasonore (40 kHz) et mesure le temps d’écho.</li>
+  <li>Plage de mesure : 2 cm à ~400 cm.</li>
+  <li>Précision : environ ±3 mm</li>
+  <li>Tension d’alimentation : 5 V.</li>
+  <li>Angle de détection : ~15°.</li>
+  <li>Courant consommé : ~15 mA.</li>
+</ul>
+<br>
+ <H1>Quizz !!!</H1>
+    <br>
+        <div id="quiz">
+        <form>
+      <p><label>Quel est la plage de masure ? </label>
+    <br>
+        <input type="radio" name="q1" value="a" >5 cm à ~100 cm.<br>
+        <input type="radio" name="q1" value="b" >3 cm à ~200 cm.<br>
+        <input type="radio" name="q1" value="c" >2 cm à ~400 cm.<br>
+  
+        <p><label>Quel est l'angle de detection ? </label>
+    <br>
+        <input type="radio" name="q2" value="a" >environ ±3 mm<br>
+        <input type="radio" name="q2" value="b" >environ ±1 mm<br>
+        <input type="radio" name="q2" value="c" >environ ±5 mm<br>
+
+        <p><label>Quel est la tension d'alimentation ? </label>
+    <br>
+        <input type="radio" name="q3" value="a" >24 V.<br>
+        <input type="radio" name="q3" value="b" >5 V.<br>
+        <input type="radio" name="q3" value="c" >8 V.<br>
+
+       <p><label>Quel est l'angle de detection ? </label>
+    <br>
+        <input type="radio" name="q4" value="a" >~15°.<br>
+        <input type="radio" name="q4" value="b" >~180°.<br>
+        <input type="radio" name="q4" value="c" >~90°.<br>
+
+        <p><label>Quel est le courant consommé ? </label>
+    <br>
+        <input type="radio" name="q5" value="a" >~120 mA.<br>
+        <input type="radio" name="q5" value="b" >~30 mA.<br>
+        <input type="radio" name="q5" value="c" >~15 mA.<br>
+    </form>
+        <button onclick="Valider()">Valider les réponses</button>
+    </div>
+    <br>
+    <div id="resultats"></div>
+</body>
+</html>
